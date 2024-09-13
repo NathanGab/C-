@@ -1,0 +1,15 @@
+F:\portifolio\C#\ConsumerViaCep\bin\Debug\net8.0\ConsumerViaCep.exe
+F:\portifolio\C#\ConsumerViaCep\bin\Debug\net8.0\ConsumerViaCep.deps.json
+F:\portifolio\C#\ConsumerViaCep\bin\Debug\net8.0\ConsumerViaCep.runtimeconfig.json
+F:\portifolio\C#\ConsumerViaCep\bin\Debug\net8.0\ConsumerViaCep.dll
+F:\portifolio\C#\ConsumerViaCep\bin\Debug\net8.0\ConsumerViaCep.pdb
+F:\portifolio\C#\ConsumerViaCep\obj\Debug\net8.0\ConsumerViaCep.GeneratedMSBuildEditorConfig.editorconfig
+F:\portifolio\C#\ConsumerViaCep\obj\Debug\net8.0\ConsumerViaCep.AssemblyInfoInputs.cache
+F:\portifolio\C#\ConsumerViaCep\obj\Debug\net8.0\ConsumerViaCep.AssemblyInfo.cs
+F:\portifolio\C#\ConsumerViaCep\obj\Debug\net8.0\ConsumerViaCep.csproj.CoreCompileInputs.cache
+F:\portifolio\C#\ConsumerViaCep\obj\Debug\net8.0\ConsumerViaCep.sourcelink.json
+F:\portifolio\C#\ConsumerViaCep\obj\Debug\net8.0\ConsumerViaCep.dll
+F:\portifolio\C#\ConsumerViaCep\obj\Debug\net8.0\refint\ConsumerViaCep.dll
+F:\portifolio\C#\ConsumerViaCep\obj\Debug\net8.0\ConsumerViaCep.pdb
+F:\portifolio\C#\ConsumerViaCep\obj\Debug\net8.0\ConsumerViaCep.genruntimeconfig.cache
+F:\portifolio\C#\ConsumerViaCep\obj\Debug\net8.0\ref\ConsumerViaCep.dll
