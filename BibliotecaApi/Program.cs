@@ -21,18 +21,15 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// Get all
 app.MapGet("/bibliotecas", async (BibliotecaContext db) =>
     await db.Bibliotecas.ToListAsync());
 
-// Get by id
 app.MapGet("/bibliotecas/{id}", async (int id, BibliotecaContext db) =>
     await db.Bibliotecas.FindAsync(id)
         is Biblioteca biblioteca
             ? Results.Ok(biblioteca)
             : Results.NotFound());
 
-// Create
 app.MapPost("/bibliotecas", async (Biblioteca biblioteca, BibliotecaContext db) =>
 {
     db.Bibliotecas.Add(biblioteca);
@@ -41,7 +38,6 @@ app.MapPost("/bibliotecas", async (Biblioteca biblioteca, BibliotecaContext db) 
     return Results.Created($"/bibliotecas/{biblioteca.Id}", biblioteca);
 });
 
-// Update
 app.MapPut("/bibliotecas/{id}", async (int id, Biblioteca inputBiblioteca, BibliotecaContext db) =>
 {
     var biblioteca = await db.Bibliotecas.FindAsync(id);
@@ -59,7 +55,6 @@ app.MapPut("/bibliotecas/{id}", async (int id, Biblioteca inputBiblioteca, Bibli
     return Results.NoContent();
 });
 
-// Delete
 app.MapDelete("/bibliotecas/{id}", async (int id, BibliotecaContext db) =>
 {
     if (await db.Bibliotecas.FindAsync(id) is Biblioteca biblioteca)
